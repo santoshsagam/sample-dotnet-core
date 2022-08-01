@@ -7,10 +7,10 @@ on:
     branches:
        - master
 jobs:
-    build:
-      runs-on: ubuntu-latest
-      steps:
-       - name: test tasks
-         run: echo running
+  build:
+    runs-on: ubuntu-latest
+    steps:
+     - name: test tasks
+       run: echo running
  
      
