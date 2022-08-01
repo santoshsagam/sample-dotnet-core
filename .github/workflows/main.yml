@@ -1,0 +1,16 @@
+name: Build application
+on:
+  push:
+    branches:
+      - features-*
+  pull_request:
+    branches:
+       - master
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+       - name: test tasks
+         run: echo running
+ 
+     
